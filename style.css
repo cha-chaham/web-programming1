@@ -1,0 +1,275 @@
+.content {
+    padding: 0 40px;
+}
+
+ /* NAVBBAR */
+
+#navbar {
+    background-color: white;
+    padding: 20px 0 20px 0;
+}
+
+#menu.col-6 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#menu.col-6 a, button {
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+#menu.col-6 a {
+    text-decoration: none;
+    font-size: large;
+    color: #2c2c2c;
+    font-weight: bold;
+    display: inline;
+}
+
+#menu.col-6 button {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+
+#menu.col-6 a:hover {
+    color: #0275d8;
+}
+
+#CTA {
+    text-align: center;
+}
+
+/* HOME */
+
+#home {
+    padding: 20px 70px 20px 70px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#title {
+    font-size: 45pt;
+    font-weight: bold;
+}
+
+#hleft {
+    justify-content: left;
+}
+
+#hright {
+    align-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#CTA2 {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+#CTA2 a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #0275d8;
+    font-size: 13pt;
+}
+
+/* TRUSTED */
+
+#trusted {
+    text-align: center;
+}
+
+#trusted img {
+    margin-left: 30px;
+}
+
+#trusted p {
+    margin-bottom: 20px;
+    font-size: 15pt;
+}
+
+/* FITUR */
+#fitur {
+    padding: 92px 80px 0 80px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+#fit-items {
+    align-content: center;
+}
+#fit-icon {
+    display: flex;
+    justify-content: end;
+    align-items: top;
+}
+
+#fit-items h3 {
+    color: #f5c401;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#fit-left {
+    align-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+#fit-right {
+    justify-content: left;
+}
+
+#fit-1 {
+    margin-bottom: 20px;
+}
+
+#fit-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fit-itm1 {
+    text-align: right;
+    padding: 10px 15px 10px 0;
+}
+
+#fit-itm1 h3 {
+    font-weight: bold;
+    font-size: 30pt ;
+}
+
+#fit-itm2 {
+    text-align: left;
+    border-left: 1px solid #ccc;
+    padding: 10px 0 10px 15px;
+}
+
+#fit-3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+}
+
+#fit-3 h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* HARGA */
+
+#harga {
+    padding: 92px 50px 20px 50px;
+    margin-bottom: 10px;
+}
+
+#harga h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #f5c401;
+    font-size: 50pt;
+    margin-bottom: 20px;
+}
+
+#harga button {
+    padding: 10px 0;
+
+}
+
+#harga a {
+    display: inline-block;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+
+/* MAPS */
+#maps {
+    padding: 92px 70px 20px 70px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 55px;
+}
+
+#desc-title {
+    font-size: 13pt;
+}
+
+/* FAQ */
+#faq {
+    margin-bottom: 30px;
+    padding: 92px 40px 0 40px;
+}
+
+#faq h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32pt;
+    color: #003262;
+    margin-bottom: 20px;
+}
+
+#faq a {
+    text-decoration: none;
+    color: #003262;
+    font-weight: bold;
+}
+
+/* KONTAK */
+#kontak {
+    margin-bottom: 30px;
+    padding: 92px 40px 0 40px;
+}
+
+#kontak h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32pt;
+    color: #f5c401;
+    margin-bottom: 10px;
+}
+
+#kontak a {
+    text-decoration: none;
+    font-size: 23pt;
+    font-weight: bold;
+    color: #003262;
+    margin-bottom: 20px;
+}
+
+#kontak p {
+    text-align: center;
+    font-size: 13pt;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: rgb(247, 247, 247);
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #2c2c2c;
+    font-weight: normal;
+}
+
+#menu {
+    text-align: right;
+}
